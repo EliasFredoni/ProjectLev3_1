@@ -38,6 +38,7 @@ h1{
 
 p{
     text-align: center;
+    text-weight: bold;
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     line-height: 23px;
@@ -51,7 +52,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 height: 100vh;
-padding-top: 15em;
+padding-top: 11.3em;
 padding-right: 6em;
 }
 
@@ -80,7 +81,7 @@ padding-right: 6em;
     color: #9e9e9e;
     margin-top: -12em;
     margin-left: 11em;
-    padding-bottom: 9em;
+    padding-bottom: 4.5em;
 }
 
 .orbis p:nth-child(5){
@@ -88,6 +89,7 @@ padding-right: 6em;
     font-size: 165px;
     text-align: right;
     color: #9e9e9e62;
+    padding-top: 0.5em;
 }
 
 .orbis div > a{
@@ -116,7 +118,7 @@ padding-right: 6em;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: 15em;
+    padding-top: 11.3em;
     padding-right: 6em;
 }
 
@@ -145,7 +147,7 @@ padding-right: 6em;
     color: #000;
     margin-top: -12em;
     margin-left: 10.5em;
-    padding-bottom: 9em;
+    padding-bottom: 4.5em;
 }
 
 .rollr p:nth-child(5){
@@ -153,6 +155,7 @@ padding-right: 6em;
     font-size: 165px;
     text-align: right;
     color: #666;
+    padding-top: 0.5em;
 }
 
 .rollr div > a{
@@ -181,7 +184,7 @@ padding-right: 6em;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: 15em;
+    padding-top: 11.3em;
     padding-right: 6em;
 }
 
@@ -210,7 +213,7 @@ padding-right: 6em;
     color: #9e9e9e;
     margin-top: -12em;
     margin-left: 11em;
-    padding-bottom: 9em;
+    padding-bottom: 4.5em;
 }
 
 .galitos p:nth-child(5){
@@ -218,6 +221,7 @@ padding-right: 6em;
     font-size: 165px;
     text-align: right;
     color: #9e9e9e62;
+    padding-top: 0.5em;
 }
 
 .galitos div > a{
@@ -246,7 +250,7 @@ padding-right: 6em;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: 15em;
+    padding-top: 11.3em;
     padding-right: 6em;
 }
 
@@ -275,7 +279,7 @@ padding-right: 6em;
     color: #9e9e9e;
     margin-top: -12em;
     margin-left: 11em;
-    padding-bottom: 9em;
+    padding-bottom: 4.5em;
 }
 
 .tretto p:nth-child(5){
@@ -283,6 +287,7 @@ padding-right: 6em;
     font-size: 165px;
     text-align: right;
     color: #666;
+    padding-top: 0.5em;
 }
 
 .tretto div > a{
