@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------DECKBLATT/HEADER-------------------*/
+h3{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #000;
+    padding-top: 1em;
+}
+
+h2{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 103px 370px;
+}
+
+img{
+    padding-left: 29em;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 160px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 0.4em;
+    padding-bottom: 0.6em;
+}
+
+/*--------------------------------------------------*/
+
+p{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/*-----------------ORBIS----------------------------*/
+
+.orbis{
+background: url(../img/portfolio2.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+padding-top: 15em;
+padding-right: 6em;
+}
+
+.orbis p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: -3em;
+    margin-left: 11em;
+    padding-bottom: 4em;
+}
+
+.orbis p:nth-child(2){
+    font-size: 112px;
+    font-weight: 1000;
+    color: #fff;
+    padding-right: 5.5em;
+    padding-bottom: 3em;
+}
+
+.orbis p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: -12em;
+    margin-left: 11em;
+    padding-bottom: 9em;
+}
+
+.orbis p:nth-child(5){
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+    text-align: right;
+    color: #9e9e9e62;
+}
+
+.orbis div > a{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    border-style: solid;
+    margin-left: 14em;
+    padding: 1em 2em;
+}
+
+.orbis div > a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.orbis div:hover + p:nth-child(5){
+    color: #fff;
+}
+
+/*--------------------ROLLR--------------------------*/
+
+.rollr{
+    background: url(../img/portfolio3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 15em;
+    padding-right: 6em;
+}
+
+.rollr p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+    margin-top: -3em;
+    margin-left: 11em;
+    padding-bottom: 4em;
+}
+
+.rollr :nth-child(2){
+    font-size: 112px;
+    font-weight: 1000;
+    color: #000;
+    padding-right: 5.3em;
+    padding-bottom: 3em;
+}
+
+.rollr p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+    margin-top: -12em;
+    margin-left: 10.5em;
+    padding-bottom: 9em;
+}
+
+.rollr p:nth-child(5){
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+    text-align: right;
+    color: #666;
+}
+
+.rollr div > a{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: #000;
+    border-style: solid;
+    margin-left: 14em;
+    padding: 1em 2em;
+}
+
+.rollr div > a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.rollr div:hover + p:nth-child(5){
+    color: #000;
+}
+
+/*---------------------GALITOS------------------------*/
+
+.galitos{
+    background: url(../img/portfolio4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 15em;
+    padding-right: 6em;
+}
+
+.galitos p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: -3em;
+    margin-left: 11em;
+    padding-bottom: 4em;
+}
+
+.galitos :nth-child(2){
+    font-size: 112px;
+    font-weight: 1000;
+    color: #fff;
+    padding-right: 4.2em;
+    padding-bottom: 3em;
+}
+
+.galitos p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: -12em;
+    margin-left: 11em;
+    padding-bottom: 9em;
+}
+
+.galitos p:nth-child(5){
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+    text-align: right;
+    color: #9e9e9e62;
+}
+
+.galitos div > a{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    border-style: solid;
+    margin-left: 14em;
+    padding: 1em 2em;
+}
+
+.galitos div > a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.galitos div:hover + p:nth-child(5){
+    color: #fff;
+}
+
+/*-----------------------TRETTO-----------------------*/
+
+.tretto{
+    background: url(../img/portfolio5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 15em;
+    padding-right: 6em;
+}
+
+.tretto p:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: -3em;
+    margin-left: 11em;
+    padding-bottom: 4em;
+}
+
+.tretto :nth-child(2){
+    font-size: 112px;
+    font-weight: 1000;
+    color: #000;
+    padding-right: 4.5em;
+    padding-bottom: 3em;
+    }
+
+.tretto p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #9e9e9e;
+    margin-top: -12em;
+    margin-left: 11em;
+    padding-bottom: 9em;
+}
+
+.tretto p:nth-child(5){
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 165px;
+    text-align: right;
+    color: #666;
+}
+
+.tretto div > a{
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: #000;
+    border-style: solid;
+    margin-left: 14em;
+    padding: 1em 2em;
+}
+
+.tretto div > a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.tretto div:hover + p:nth-child(5){
+    color: #000;
+}
+
+/*------------------------END-------------------------*/
+
+footer{
+    background-color: #000;
+    padding-bottom: 11vh;
+}
+
+footer p:first-child{
+    font-size: 180px;
+    font-weight: 1000;
+    text-align: center; 
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+}
+
+footer p:nth-child(2){
+    text-align: left;
+    color: #666;
+    word-spacing: 0.2em;
+    line-height: 180%;
+    padding-top: 4.7em;
+    padding-right: 9.5em;
+    padding-bottom: 4.5em;
+    padding-left: 32em;
+}
+
+nav a{
+    font-size: 60px;
+    text-decoration: none;
+    color:#fff;
+    padding-left: 10.7em;
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+}
+
+/*--------------------SOCIAL MEDIA---------------------*/
+
+ul{
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    padding-bottom: 21vh;
+}
+
+ul li a{
+    font-size:160px;
+    text-decoration: none;
+    color:#000;
+    list-style: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+/*--------------EXTRA:HERZ------------------------------*/
+
+.fa-beat{
+    font-size: 80px;
+    text-decoration: none;
+    animation:fa-beat 5s ease infinite;
+}
+@keyframes fa-beat{
+    0% {
+        transform:scale(1);
+    }
+    5% {
+        transform:scale(1.25);
+    }
+    20% {
+        transform:scale(1);
+    }
+    30% {
+        transform:scale(1);
+    }
+    35% {
+        transform:scale(1.25);
+    }
+    50% {
+        transform:scale(1);
+    }
+    55% {
+        transform:scale(1.25);
+    }
+    70% {
+        transform:scale(1);
+    }
+}
+
+/* 
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+Farben: #9e9e9e, #fff, #000, #333, #666 
+
+Freiwillige Zusatzaufgabe:
+
+Das Herz am Ende der Website ist animiert. 
+Da wir das noch nicht besprochen haben, 
+ist das natürlich keine Pflicht. Wer Lust hat, 
+darf aber gerne ein bisschen googlen und ausprobieren. 
+Kleiner Tipp: JavaScript brauchen wir dafür noch nicht.
+*/
